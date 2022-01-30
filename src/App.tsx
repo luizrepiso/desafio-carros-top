@@ -1,11 +1,15 @@
-import './assets/styles/custom.scss'
+import Navbar from 'components/Navbar';
+import './assets/styles/custom.scss';
 import './App.css';
 
-function App() {
+
+const App = () => {
   return (
-    <h1>Hello Carros Top</h1>
-   
-  );
-}
+  <>
+  <Navbar/>
+  <h1> O carro perfeito para você</h1>
+  </>
+  )
+};
 
 export default App;
