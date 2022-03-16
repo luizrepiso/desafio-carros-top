@@ -1,15 +1,10 @@
-import Navbar from 'components/Navbar';
 import './assets/styles/custom.scss';
 import './App.css';
 
+import Routes from 'Routes';
 
 const App = () => {
-  return (
-  <>
-  <Navbar/>
-  <h1> O carro perfeito para você</h1>
-  </>
-  )
+  return <Routes/>;
 };
 
 export default App;

@@ -1,5 +1,5 @@
 import './styles.css';
-import'bootstrap/js/src/collapse.js';
+import 'bootstrap/js/src/collapse.js';
 
 const Navbar = () => {
   return (
@@ -12,23 +12,22 @@ const Navbar = () => {
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#Carrostop-navbar"
-          aria-controls="Carrostop-navbar"
+          data-bs-target="#carrostop-navbar"
+          aria-controls="carrostop-navbar"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-
         <div className="collapse navbar-collapse" id="carrostop-navbar">
-          <ul className="navbar-nav offset-md-2 main-menu">
-            <li>
+          <ul className="navbar-nav offset-md-8 main-menu">
+            <li className="menu-nav">
               <a href="link" className="active">
-                HOME
+                Home
               </a>
             </li>
-            <li>
-              <a href="link">CATÁLOGO</a>
+            <li className="menu-nav-title">
+              <a href="link">Catálogo</a>
             </li>
           </ul>
         </div>
@@ -36,4 +35,5 @@ const Navbar = () => {
     </nav>
   );
 };
+
 export default Navbar;
