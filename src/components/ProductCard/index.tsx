@@ -1,5 +1,4 @@
 import { ReactComponent as CarCatalogo } from 'assets/images/car-catalogo.svg';
-import ButtonProduct from './ButtonProduct';
 
 import './styles.css';
 
@@ -17,8 +16,10 @@ const ProductCard = () => {
             Cupiditate, nisi
           </p>
         </div>
-        <div className="card-buttom-container">
-          <ButtonProduct />
+        <div className="card-button-container">
+          <button className="btn btn-primary btn-icon-product">
+            <p>Comprar</p>
+          </button>
         </div>
       </div>
     </div>
