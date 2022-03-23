@@ -4,7 +4,7 @@ import ButtonSearch from 'components/ButtonSearch';
 const Catalog = () => {
   return (
     <>
-      <div className="container my-4 ">
+      <div className="container my-4 catalog-container ">
         <ButtonSearch />
         <div className="row">
           <div className="col-sm-6 col-lg-4">

@@ -52,8 +52,28 @@
 }
 @media (min-width: 768px) {
   .catalog-search-container {
-    width: 728px;
+    width: 697px;
     height: 123px;
   }
-  
+  @media (min-width: 992px) {
+    .catalog-search-container {
+      width: 938px;
+      height: 123px;
+      padding-right: 85px;
+      padding-left: 85px;
+    }
+    .search-container {
+      width: 584px;
+    }
+    .button-icon {
+      width: 174px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .catalog-search-container {
+    width: 979px;
+    height: 123px;
+    margin-left: 150px;
+  }
 }
