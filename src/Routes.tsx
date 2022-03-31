@@ -1,15 +1,18 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from 'components/Navbar';
-
-
+import Home from 'pages/Home';
 import Catalog from 'pages/Catalog';
+
 const Routes = () => {
   return (
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <Switch>
-        <Route path="/">
-          <Catalog />
+        <Route path="/" exact>
+          <Home/>
+        </Route>
+        <Route path="/products">
+          <Catalog/>
         </Route>
       </Switch>
     </BrowserRouter>

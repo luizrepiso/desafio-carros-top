@@ -38,13 +38,25 @@
   display: flex;
   padding: 0 0 0 10px;
 }
-.menu-nav a:hover {
-  color: #fff;
+
+.menu-nav-title a.active {
+  color: #00285f;
+  font-weight: normal;
 }
+
 .menu-nav-title {
   font-size: 18px;
   font-weight: normal;
   padding: 0 0 0 10px;
+}
+.navbar-toggler {    
+  border: none;
+  border-radius: none;
+  transition: none;
+}
+.navbar-dark .navbar-toggler {
+  color: none;
+  border-color: none;
 }
 
 @media (min-width: 1200px) {
@@ -52,6 +64,6 @@
     padding: 0 0 0 125px;
   }
   .main-nav {
-    width: 1280px ;
+    width: 1280px;
   }
 }
